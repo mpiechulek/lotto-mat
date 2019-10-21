@@ -139,7 +139,7 @@ const comparing = () => {
             console.log(count);
             randArrayGen();
         }
-        information.textContent = 'You have won by ' + count + ' time';
+        information.textContent = 'You have won in ' + count + ' attemption';
     } else {
         information.textContent = `Number not correct (forbiden: not a number,
             empty , 0 ,greater than 42)`;

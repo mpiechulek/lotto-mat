@@ -25,6 +25,8 @@ body {
     font-size: 5rem;;
     transform: translate(-50%, -50%);
     position: absolute;
+	width: 100%;
+	text-align: center;
 
 }
 .button{
@@ -49,9 +51,10 @@ body {
 .input{
     border-radius: 5px;
     border: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     display: inline-block;
     text-align: center;
+	margin: 1rem;
     padding: 5px;
     height: 50px;
     width: 50px;
@@ -60,6 +63,7 @@ body {
 .main{
     position: relative;
     display: flex;
+	 justify-content: center;
     flex-direction: column;
 }
 
@@ -67,7 +71,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -104,4 +108,23 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.header_h1{ font-size: 3rem;}
+	.main_container{ width: 80%;}	
+	.input{   
+    font-size: 1.3rem;   
+	margin: 0.4rem;  
+    height: 35px;
+    width: 35px;
+}
+.number {
+	font-size: 1.3rem;   
+}
+.info{
+    font-size: 1rem;   
+}
+	
 }
